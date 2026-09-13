@@ -380,8 +380,7 @@ SOFTWARE.
 
 Built by **FlowThread** for NextStep Hacks 2026.
 
-- **Muhammad Mujtaba** — [role]
-- **[Teammate name]** — [role]
+- **Muhammad Mujtaba**
 
 ---
 
