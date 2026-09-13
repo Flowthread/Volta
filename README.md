@@ -359,7 +359,7 @@ This work is published in the peer-reviewed companion proceedings of the ACM Web
 ```
 MIT License
 
-Copyright (c) 2025 XGraph-Team
+Copyright (c) 2026 FlowThread
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -386,7 +386,6 @@ SOFTWARE.
 - **PyPSA** — Power system analysis library
 - **Mapbox** — Interactive mapping platform
 - **Flask** — Web framework
-- **XGraph-Team** — Original collective behind the platform
 
 ---
 
