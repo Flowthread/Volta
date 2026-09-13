@@ -340,19 +340,6 @@ python -m pytest --cov=. tests/
 - [ ] Mobile app companion
 - [ ] Renewables (solar / wind) integration
 
-## 📖 Citation
-
-This work is published in the peer-reviewed companion proceedings of the ACM Web Conference:
-
-```bibtex
-@inproceedings{benbrahim2026sumo,
-  author    = {Marouane Benbrahim and Xin Fang and Zhiqian Chen},
-  title     = {Sumo x PyPSA: Interactive Web Demo of Real-Time Urban Power-Traffic Co-Simulation with Vehicle-to-Grid},
-  booktitle = {Companion Proceedings of the ACM Web Conference 2026 (WWW '26 Companion)},
-  year      = {2026},
-  address   = {Dubai, UAE},
-}
-```
 
 ## 📝 License
 
@@ -388,6 +375,20 @@ SOFTWARE.
 - **Flask** — Web framework
 
 ---
+
+## 👥 Team
+
+Built by **FlowThread** for NextStep Hacks 2026.
+
+- **Muhammad Mujtaba** — [role]
+- **[Teammate name]** — [role]
+
+---
+
+## 📅 Timeline
+
+Built over **A Month** (September 2026) for NextStep Hacks 2026 in timeline. — Earth Forward.
+
 
 <p align="center">
   Built for NextStep Hacks 2026 — Earth Forward 🌱
