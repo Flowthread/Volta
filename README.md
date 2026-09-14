@@ -380,8 +380,6 @@ SOFTWARE.
 
 Built by **FlowThread** for NextStep Hacks 2026.
 
-- **Muhammad Mujtaba**
-
 ---
 
 ## 📅 Timeline
