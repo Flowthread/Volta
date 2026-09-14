@@ -15,7 +15,7 @@
 [![Flask](https://img.shields.io/badge/Flask-2.0%2B-black.svg)](https://flask.palletsprojects.com/)
 [![ACM WWW '26](https://img.shields.io/badge/ACM-WWW%20'26-Paper-red.svg)](https://www2026.thewebconf.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Stars](https://img.shields.io/github/stars/XGraph-Team/SumoXPypsa.svg?style=social&label=Star)](https://github.com/XGraph-Team/SumoXPypsa)
+[![Stars](https://img.shields.io/github/stars/Flowthread/Volta.svg?style=social&label=Star)](https://github.com/XGraph-Team/SumoXPypsa)
 
 ---
 
