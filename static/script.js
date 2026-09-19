@@ -3556,7 +3556,7 @@ function initializeEVStationLayer() {
             essential: true
         });
 
-        showNotification('🗺️ System Overview', 'Showing Manhattan power grid overview', 'info');
+        showNotification('🗺️ System Overview', 'Showing Volta city grid overview', 'info');
 
         // Highlight all major substations
         setTimeout(() => {
@@ -4355,12 +4355,12 @@ function initializeEVStationLayer() {
         initV2G();
         if (PERFORMANCE_CONFIG.enableDebugMode) {
             console.log('⚡ V2G system initialized!');
-            console.log('🚀 Manhattan Power Grid - World-class UI initialized!');
+            console.log('🚀 Volta - World-class UI initialized!');
             console.log('Performance mode:', PERFORMANCE_CONFIG.renderMode);
             console.log('Target FPS:', PERFORMANCE_CONFIG.targetFPS);
         }
         
-        showNotification('✨ System Ready', 'Manhattan Power Grid online with V2G', 'success');
+        showNotification('✨ System Ready', 'Volta online with V2G', 'success');
     });
     // Initial fix
     setTimeout(fixTabLayout, 100);

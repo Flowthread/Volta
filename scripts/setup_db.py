@@ -38,7 +38,7 @@ def setup_database():
     """Initialize database with tables and seed data"""
     
     print("=" * 60)
-    print("MANHATTAN POWER GRID - DATABASE SETUP")
+    print("VOLTA - DATABASE SETUP")
     print("=" * 60)
     
     # Initialize connections

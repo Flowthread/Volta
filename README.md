@@ -1,21 +1,21 @@
-# Manhattan Power Grid - Advanced Operations Center
+# Volta - Advanced Operations Center
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
 [![SUMO](https://img.shields.io/badge/SUMO-1.15+-orange.svg)](https://eclipse.org/sumo/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A **real-time power grid simulation system** integrating electrical power flow analysis, traffic management, electric vehicle simulation, and Vehicle-to-Grid (V2G) energy trading. Built for Manhattan's power infrastructure with advanced AI analytics and machine learning optimization.
+**Volta** (formerly Manhattan Power Grid) is a **real-time simulation of a city's power grid and traffic system working together** — where electric vehicles act as mobile batteries that can send power back to the grid during emergencies. It integrates electrical power flow analysis (PyPSA), traffic microsimulation (SUMO), electric vehicle simulation, and Vehicle-to-Grid (V2G) energy trading, all wrapped in advanced AI analytics and machine learning optimization.
 
-![Manhattan Power Grid Dashboard](1.png)
+![Volta Dashboard](1.png)
 
 ## 🎥 Live Demo
 
 **Watch the full system demonstration on YouTube:**
 
-[![Manhattan Power Grid Demo](https://img.shields.io/badge/YouTube-Demo_Video-red.svg?logo=youtube)](https://youtu.be/36mGJWjrSxw)
+[![Volta Demo](https://img.shields.io/badge/YouTube-Demo_Video-red.svg?logo=youtube)](https://youtu.be/36mGJWjrSxw)
 
-🔗 **[Watch Demo: Manhattan Power Grid Simulation - Electric Vehicles, V2G & AI Analytics](https://youtu.be/36mGJWjrSxw)**
+🔗 **[Watch Demo: Volta Simulation - Electric Vehicles, V2G & AI Analytics](https://youtu.be/36mGJWjrSxw)**
 
 See the system in action with live power flow analysis, EV simulation, V2G emergency response, and AI-powered grid management.
 

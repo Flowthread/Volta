@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Volta">
+  <defs>
+    <linearGradient id="vsg-grid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#00FFAA"/>
+      <stop offset="55%" stop-color="#00FF88"/>
+      <stop offset="100%" stop-color="#00AAFF"/>
+    </linearGradient>
+    <linearGradient id="vsg-ring" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"  stop-color="#00AAFF"/>
+      <stop offset="100%" stop-color="#00FFAA"/>
+    </linearGradient>
+    <linearGradient id="vsg-core" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#0B1226"/>
+      <stop offset="100%" stop-color="#0E1B33"/>
+    </linearGradient>
+    <linearGradient id="vsg-bolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#00FFAA"/>
+      <stop offset="45%" stop-color="#00FF88"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+    <radialGradient id="vsg-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#00FF88" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#00FF88" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#00FF88" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="vsg-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Background glow -->
+  <circle cx="256" cy="256" r="180" fill="url(#vsg-glow)" filter="url(#vsg-blur)"/>
+
+  <!-- Outer grid ring (city + traffic circuit) -->
+  <circle cx="256" cy="256" r="212" fill="none" stroke="url(#vsg-ring)" stroke-width="5" opacity="0.9"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="url(#vsg-ring)" stroke-width="1.5" stroke-dasharray="3 10" opacity="0.6"/>
+
+  <!-- Geographic / circuit nodes on the ring -->
+  <g fill="#00FFAA">
+    <circle cx="256" cy="44" r="7"/>
+    <circle cx="256" cy="468" r="7"/>
+    <circle cx="44" cy="256" r="7"/>
+    <circle cx="468" cy="256" r="7"/>
+    <circle cx="94" cy="94" r="5" opacity="0.7"/>
+    <circle cx="418" cy="94" r="5" opacity="0.7"/>
+    <circle cx="94" cy="418" r="5" opacity="0.7"/>
+    <circle cx="418" cy="418" r="5" opacity="0.7"/>
+  </g>
+
+  <!-- Grid / road circuit lines crossing the emblem -->
+  <g stroke="url(#vsg-grid)" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <!-- horizontal artery -->
+    <path d="M 256 88 V 112"/>
+    <path d="M 256 400 V 424"/>
+    <path d="M 88 256 H 140"/>
+    <path d="M 372 256 H 424"/>
+    <!-- diagonal connections -->
+    <path d="M 300 96 L 330 126"/>
+    <path d="M 212 416 L 182 386"/>
+    <path d="M 96 300 L 126 330"/>
+    <path d="M 416 212 L 386 182"/>
+  </g>
+
+  <!-- Core emblem disc -->
+  <circle cx="256" cy="256" r="150" fill="url(#vsg-core)" stroke="url(#vsg-grid)" stroke-width="3.5" opacity="0.98"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="url(#vsg-ring)" stroke-width="1" stroke-dasharray="2 6" opacity="0.5"/>
+
+  <!-- City skyline inside the disc -->
+  <g fill="#10243F" stroke="#00FFAA" stroke-width="2.2" stroke-linejoin="round" opacity="0.95">
+    <path d="M 148 322 V 264 h 16 v -24 h 10 v 24 h 12 v 58 Z"/>
+    <path d="M 202 322 V 238 h 14 v -18 h 12 v 18 h 16 v 84 Z"/>
+    <path d="M 268 322 V 206 h 18 v -20 h 10 v 20 h 16 v 116 Z"/>
+    <path d="M 336 322 V 252 h 12 v -20 h 10 v 20 h 12 v 70 Z"/>
+    <!-- windows dots -->
+    <g fill="#00FFAA" opacity="0.9">
+      <circle cx="166" cy="284" r="2.2"/>
+      <circle cx="166" cy="268" r="2.2"/>
+      <circle cx="224" cy="272" r="2.2"/>
+      <circle cx="224" cy="256" r="2.2"/>
+      <circle cx="238" cy="272" r="2.2"/>
+      <circle cx="238" cy="256" r="2.2"/>
+      <circle cx="297" cy="244" r="2.2"/>
+      <circle cx="297" cy="228" r="2.2"/>
+      <circle cx="313" cy="244" r="2.2"/>
+      <circle cx="313" cy="228" r="2.2"/>
+      <circle cx="354" cy="276" r="2.2"/>
+    </g>
+  </g>
+  <!-- Baseline -->
+  <line x1="138" y1="324" x2="372" y2="324" stroke="#00FFAA" stroke-width="3" opacity="0.6"/>
+
+  <!-- V2G bidirectional flow arrows -->
+  <g stroke="#00D4FF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 168 358 L 168 396 M 140 378 L 168 396 L 196 378"/>
+    <path d="M 344 358 L 344 396 M 316 378 L 344 396 L 372 378"/>
+  </g>
+  <!-- battery/EV glyph -->
+  <g fill="none" stroke="#00D4FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="300" y="350" width="30" height="44" rx="5"/>
+    <path d="M 309 342 V 354 M 321 342 V 354"/>
+    <path d="M 306 368 h 18"/>
+  </g>
+
+  <!-- Central lightning bolt -->
+  <path d="M 206 176 L 306 176 L 254 268 L 288 268 L 206 346 L 268 268 L 236 268 Z"
+        fill="url(#vsg-bolt)" filter="drop-shadow(0 0 18px rgba(0,255,136,0.55))"/>
+  <path d="M 218 188 L 288 188 L 246 262 L 272 262 L 222 320 L 262 262 L 240 262 Z"
+        fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+
+  <!-- Road flow dashes under the disc -->
+  <g stroke="#00FFAA" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <line x1="206" y1="434" x2="234" y2="434"/>
+    <line x1="250" y1="434" x2="278" y2="434"/>
+    <line x1="294" y1="434" x2="322" y2="434"/>
+  </g>
+</svg>

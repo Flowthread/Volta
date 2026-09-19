@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Manhattan Power Grid - Linux/macOS Setup Script
+# Volta - Linux/macOS Setup Script
 # Automated setup for Unix-like environments
 
 set -e  # Exit on any error
@@ -13,7 +13,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 echo "======================================================"
-echo -e "${GREEN}Manhattan Power Grid - Setup${NC}"
+echo -e "${GREEN}Volta - Setup${NC}"
 echo "======================================================"
 
 # Function to print colored output

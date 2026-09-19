@@ -1,5 +1,5 @@
 """
-Manhattan Power Grid - Enterprise Database Layer
+Volta - Enterprise Database Layer
 Professional data persistence with async support, connection pooling, and monitoring
 Compatible with both SQLite and PostgreSQL
 """

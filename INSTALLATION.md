@@ -1,4 +1,4 @@
-# 📦 Installation Guide - Manhattan Power Grid Co-Simulation
+# 📦 Installation Guide - Volta Co-Simulation
 
 Complete step-by-step installation instructions for all platforms.
 

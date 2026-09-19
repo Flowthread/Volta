@@ -1,5 +1,5 @@
 """
-Manhattan Power Grid - COMPLETE World-Class Integration
+Volta - COMPLETE World-Class Integration
 All features from main_world_class.py PLUS advanced SUMO vehicle simulation
 
 ORGANIZED ROUTE STRUCTURE:
@@ -47,7 +47,7 @@ CORS(app)
 
 # Initialize systems
 print("=" * 60)
-print("MANHATTAN POWER GRID - COMPLETE INTEGRATION")
+print("VOLTA - COMPLETE INTEGRATION")
 print("Power + Traffic + Vehicles - World Class System")
 print("=" * 60)
 

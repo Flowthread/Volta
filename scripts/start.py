@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Manhattan Power Grid - Application Starter
+Volta - Application Starter
 Smart application starter with environment detection and validation.
 """
 
@@ -117,7 +117,7 @@ class ApplicationStarter:
 
     def create_default_env(self):
         """Create a default .env file."""
-        env_content = """# Manhattan Power Grid Configuration
+        env_content = """# Volta Configuration
 
 # Flask Configuration
 FLASK_ENV=development
@@ -162,7 +162,7 @@ LOG_LEVEL=INFO
 
     def start_application(self, debug: bool = False, port: int = 5000) -> bool:
         """Start the main application."""
-        self.print_status("Starting Manhattan Power Grid...", "info")
+        self.print_status("Starting Volta...", "info")
 
         if not self.main_script.exists():
             self.print_status("Main application script not found", "error")
@@ -195,7 +195,7 @@ LOG_LEVEL=INFO
 
     def run_pre_flight_checks(self) -> bool:
         """Run all pre-flight checks."""
-        print(f"{Colors.GREEN}{Colors.BOLD}Manhattan Power Grid - Startup{Colors.END}")
+        print(f"{Colors.GREEN}{Colors.BOLD}Volta - Startup{Colors.END}")
         print("=" * 50)
 
         checks = [
@@ -227,7 +227,7 @@ def main():
     """Main function."""
     import argparse
 
-    parser = argparse.ArgumentParser(description="Manhattan Power Grid Application Starter")
+    parser = argparse.ArgumentParser(description="Volta Application Starter")
     parser.add_argument("--debug", action="store_true", help="Start in debug mode")
     parser.add_argument("--port", type=int, default=5000, help="Port to run on (default: 5000)")
     parser.add_argument("--no-checks", action="store_true", help="Skip pre-flight checks")

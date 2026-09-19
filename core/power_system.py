@@ -1,5 +1,5 @@
 """
-Manhattan Power Grid - Professional Power System Core
+Volta - Professional Power System Core
 Enterprise-grade PyPSA implementation with real power flow, contingency analysis,
 and predictive capabilities. This is what Con Edison actually uses.
 """

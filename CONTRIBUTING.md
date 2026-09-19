@@ -1,6 +1,6 @@
-# Contributing to Manhattan Power Grid
+# Contributing to Volta
 
-Thank you for your interest in contributing to the Manhattan Power Grid simulation system! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to the Volta simulation system! This document provides guidelines and information for contributors.
 
 ## 🤝 How to Contribute
 
@@ -293,7 +293,7 @@ We are committed to providing a welcoming and inclusive environment. Please:
 
 ## 🎉 Thank You!
 
-Every contribution, no matter how small, helps make Manhattan Power Grid better. Whether you're fixing a typo, adding a feature, or improving documentation, your efforts are appreciated!
+Every contribution, no matter how small, helps make Volta better. Whether you're fixing a typo, adding a feature, or improving documentation, your efforts are appreciated!
 
 ---
 

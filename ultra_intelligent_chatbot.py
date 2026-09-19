@@ -1,7 +1,7 @@
 """
 ULTRA INTELLIGENT CHATBOT - WORLD CLASS CONVERSATIONAL AI
 This is the most advanced AI possible - understands typos, gives suggestions,
-provides ChatGPT-like experience specialized for Manhattan Power Grid
+provides ChatGPT-like experience specialized for Volta
 """
 
 import os
@@ -558,7 +558,7 @@ class UltraIntelligentChatbot:
                 'description': 'NYC traffic light system - 3,481 controlled lights'
             },
             'power grid': {
-                'name': 'Manhattan Power Grid',
+                'name': 'Volta',
                 'coords': [-73.9857, 40.7580],
                 'type': 'infrastructure',
                 'substation': 'Times Square',
@@ -674,7 +674,7 @@ class UltraIntelligentChatbot:
 
             # ENHANCED: Handle greetings more naturally
             if any(greeting in corrected_input.lower() for greeting in ['hi', 'hello', 'hey', 'greetings', 'good morning', 'good afternoon']):
-                greeting_text = """# 👋 Manhattan Power Grid AI
+                greeting_text = """# 👋 Volta AI
 
 **I control** substations, time, temperature & scenarios via natural language.
 
@@ -2450,7 +2450,7 @@ Return format: intent"""
         else:
             return {
                 'success': True,
-                'text': "Our Manhattan Power Grid includes 8 substations, 8 EV charging stations with 160 ports, 42 miles of primary cables, 127 miles of secondary cables, and comprehensive smart grid communication infrastructure."
+                'text': "Our Volta system includes 8 substations, 8 EV charging stations with 160 ports, 42 miles of primary cables, 127 miles of secondary cables, and comprehensive smart grid communication infrastructure."
             }
 
     async def _execute_power_grid_visualization(self, command: str, entities: Dict[str, Any]) -> Dict[str, Any]:
@@ -2637,7 +2637,7 @@ Return format: intent"""
 
                 context_string = "\n".join(context_info) if context_info else "No previous context"
 
-                system_context = f"""You are an intelligent Manhattan Power Grid assistant. Be concise, direct, and answer only what is asked.
+                system_context = f"""You are an intelligent Volta assistant. Be concise, direct, and answer only what is asked.
 
 CURRENT SYSTEM STATUS:
 - Substations: {substations_online}/{total_substations} online
@@ -2648,7 +2648,7 @@ CURRENT SYSTEM STATUS:
 CONVERSATION CONTEXT:
 {context_string}
 
-MANHATTAN POWER GRID INFRASTRUCTURE:
+VOLTA POWER GRID INFRASTRUCTURE:
 
 SUBSTATIONS (8 total):
 1. Times Square - 850MVA capacity, Commercial hub
@@ -2764,7 +2764,7 @@ Be helpful, accurate, and conversational while staying focused on the user's act
 
         # Direct, focused responses like ChatGPT
         if any(word in input_lower for word in ['hi', 'hello', 'hey', 'greetings']):
-            return f"Hello! I'm your Manhattan Power Grid assistant. How can I help you today?"
+            return f"Hello! I'm your Volta assistant. How can I help you today?"
 
         elif any(word in input_lower for word in ['how are you', 'how do you do', 'whats up']):
             return f"I'm running well - all {substations_online} substations are online. What can I help you with?"

@@ -1,6 +1,6 @@
 # API Reference
 
-This directory contains complete API documentation for the Manhattan Power Grid simulation system.
+This directory contains complete API documentation for the Volta simulation system.
 
 ## 🔗 Endpoints Overview
 

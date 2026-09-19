@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Real-Time Co-Simulation of Power Grid and Traffic Systems integrating PyPSA, SUMO, and V2G for Manhattan">
+    <meta name="description" content="Real-Time Co-Simulation of Power Grid and Traffic Systems integrating PyPSA, SUMO, and V2G">
     <meta name="keywords" content="Power Grid, Traffic Simulation, V2G, Co-Simulation, PyPSA, SUMO, Smart Grid, Electric Vehicles">
-    <meta name="author" content="Manhattan Co-Simulation Team">
+    <meta name="author" content="Volta Team">
 
-    <title>Manhattan Power Grid Co-Simulation | WebConf 2026 Demo Track</title>
+    <title>Volta | Real-Time Power &amp; Traffic Co-Simulation</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="volta-logo.svg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,8 +28,8 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <div class="nav-brand">
-                <i class="fas fa-bolt"></i>
-                <span>Manhattan Co-Simulation</span>
+                <img src="volta-logo.svg" alt="Volta logo" class="nav-logo">
+                <span>Volta</span>
             </div>
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
@@ -60,8 +63,8 @@
                 <span class="gradient-text">Power Grid & Traffic Systems</span>
             </h1>
             <p class="hero-subtitle">
-                Integrated simulation platform combining PyPSA power flow analysis with SUMO traffic microsimulation
-                for Manhattan, featuring Vehicle-to-Grid technology and realistic load modeling
+                Integrated co-simulation platform combining PyPSA power flow analysis with SUMO traffic microsimulation
+                across a city-scale grid, featuring Vehicle-to-Grid technology and realistic load modeling
             </p>
             <div class="hero-buttons">
                 <a href="#demo" class="btn btn-primary">
@@ -96,7 +99,7 @@
                     </div>
                     <h3>Power Grid Simulation</h3>
                     <p>
-                        PyPSA-based power flow analysis for Manhattan's 8-substation electrical network.
+                        PyPSA-based power flow analysis for a city-scale 8-substation electrical network.
                         Features DC power flow calculations, real-time load modeling, and substation failure simulation
                         with realistic power system operations.
                     </p>
@@ -109,7 +112,7 @@
                     <h3>Traffic Microsimulation</h3>
                     <p>
                         SUMO-based traffic simulation with dynamic vehicle routing, battery state-of-charge tracking,
-                        and realistic Manhattan road network. Supports time-of-day traffic patterns and
+                        and a realistic urban road network. Supports time-of-day traffic patterns and
                         electric vehicle fleet management.
                     </p>
                 </div>
@@ -159,7 +162,7 @@
                     </div>
                     <h3>Power Grid Simulation</h3>
                     <ul class="feature-list">
-                        <li>8 Manhattan substations with realistic topology</li>
+                        <li>8 city-model substations with realistic topology</li>
                         <li>PyPSA DC power flow analysis</li>
                         <li>Real-time substation failure/restoration</li>
                         <li>Temperature-sensitive load modeling (ASHRAE)</li>
@@ -174,7 +177,7 @@
                     </div>
                     <h3>Traffic Microsimulation</h3>
                     <ul class="feature-list">
-                        <li>SUMO-based Manhattan road network</li>
+                        <li>SUMO-based city road network</li>
                         <li>Dynamic vehicle spawning and routing</li>
                         <li>Time-based traffic patterns (rush hour)</li>
                         <li>Electric vehicle fleet management</li>
@@ -204,7 +207,7 @@
                     </div>
                     <h3>EV Charging Network</h3>
                     <ul class="feature-list">
-                        <li>Multiple charging stations across Manhattan</li>
+                        <li>Multiple charging stations across the city</li>
                         <li>DC fast charging (150 kW)</li>
                         <li>Level 2 charging (22 kW)</li>
                         <li>20 ports per station (5 DC fast, 15 Level 2)</li>
@@ -219,7 +222,7 @@
                     </div>
                     <h3>Real-Time Visualization</h3>
                     <ul class="feature-list">
-                        <li>Interactive Manhattan map (Mapbox)</li>
+                        <li>Interactive city map (Mapbox)</li>
                         <li>Live vehicle tracking with SOC coloring</li>
                         <li>Substation status monitoring</li>
                         <li>V2G session analytics dashboard</li>
@@ -238,7 +241,7 @@
             <div class="section-header">
                 <h2 class="section-title">System Specifications</h2>
                 <p class="section-subtitle">
-                    Real infrastructure data from our Manhattan co-simulation platform
+                    Real infrastructure data from the Volta co-simulation platform
                 </p>
             </div>
 
@@ -266,7 +269,7 @@
                     </div>
                     <div class="stat-number">3,481</div>
                     <div class="stat-label">Traffic Lights</div>
-                    <div class="stat-detail">Full Manhattan Network</div>
+                    <div class="stat-detail">Full City Network</div>
                 </div>
             </div>
 
@@ -307,7 +310,7 @@
                         <ul class="spec-list">
                             <li><strong>Step Time:</strong> 0.1 seconds (SUMO standard)</li>
                             <li><strong>Light Cycle:</strong> 60 seconds</li>
-                            <li><strong>Coverage:</strong> Manhattan 34th-59th Streets</li>
+                            <li><strong>Coverage:</strong> City core contract zone</li>
                             <li><strong>Vehicle Types:</strong> EV Sedan, EV SUV, Passenger</li>
                             <li><strong>Real-time Tracking:</strong> Position, SOC, Speed</li>
                         </ul>
@@ -331,7 +334,7 @@
             <div class="infrastructure-details">
                 <h3 class="specs-title">
                     <i class="fas fa-map-marked-alt"></i>
-                    Manhattan Substation Network
+                    City Substation Network
                 </h3>
                 <div class="substation-grid">
                     <div class="substation-card">
@@ -402,7 +405,7 @@
                 <div class="video-container">
                     <iframe
                         src="https://www.youtube.com/embed/36mGJWjrSxw?rel=0&modestbranding=1&enablejsapi=1"
-                        title="Manhattan Co-Simulation Platform - Full Demo"
+                        title="Volta Platform - Full Demo"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
@@ -425,7 +428,7 @@
                         Platform Demonstration
                     </h3>
                     <p>
-                        Watch the complete demonstration of the Manhattan power grid and traffic co-simulation system.
+                        Watch the complete demonstration of the Volta power grid and traffic co-simulation system.
                     </p>
                 </div>
             </div>
@@ -475,7 +478,7 @@
                     <div class="paper-info">
                         <p class="paper-title">
                             Real-Time Co-Simulation of Power Grid and Traffic Systems with Vehicle-to-Grid Integration:
-                            A Manhattan Case Study
+                            A City-Scale Case Study
                         </p>
                         <p class="paper-authors">
                             Marouane Benbrahim, Zhiqian Chen, Xin Fang
@@ -545,7 +548,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Manhattan Co-Simulation</h4>
+                    <h4>Volta</h4>
                     <p>
                         Real-time power grid and traffic co-simulation platform
                         integrating PyPSA, SUMO, and V2G for smart city resilience research.
@@ -586,7 +589,7 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2025 Manhattan Co-Simulation Project. Licensed under MIT License.</p>
+                <p>&copy; 2026 Volta Project. Licensed under MIT License.</p>
                 <p>
                     Submitted to <a href="https://www2026.thewebconf.org/calls/demos.html" target="_blank">WWW 2026 Demo Track</a>
                 </p>

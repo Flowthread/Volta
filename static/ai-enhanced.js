@@ -1,5 +1,5 @@
 /**
- * AI Enhanced Features for Manhattan Power Grid
+ * AI Enhanced Features for Volta
  * World-class AI integration with advanced capabilities
  */
 
@@ -44,7 +44,7 @@ class AIEnhancedSystem {
         if (chatHeader && this.aiCapabilities.length > 0) {
             chatHeader.innerHTML = `
                 <span class="chat-avatar" style="background: linear-gradient(45deg, #00ff88, #00aaff);"></span>
-                Manhattan AI Assistant
+                Volta AI Assistant
             `;
         }
 

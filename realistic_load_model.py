@@ -1,6 +1,6 @@
 """
 WORLD-CLASS Realistic Load Modeling System
-Manhattan Power Grid - Physics-Based Load Calculations
+Volta - Physics-Based Load Calculations
 
 Features:
 - Building types with realistic power consumption
@@ -80,7 +80,7 @@ class ZoneCharacteristics:
 
 class RealisticLoadModel:
     """
-    World-class load modeling system for Manhattan power grid
+    World-class load modeling system for the Volta city grid
     Based on actual Con Edison data and DOE building energy models
     """
 

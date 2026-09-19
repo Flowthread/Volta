@@ -1,6 +1,6 @@
 """
 ADVANCED AI SYSTEM CONTROLLER - OPENAI + LANGCHAIN INTEGRATION
-Intelligent natural language understanding for Manhattan Power Grid System
+Intelligent natural language understanding for Volta System
 Uses GPT-4 for true understanding and system control
 """
 
@@ -201,7 +201,7 @@ class AdvancedAIController:
         if not LANGCHAIN_AVAILABLE:
             return
 
-        system_prompt = """You are an advanced AI system controller for the Manhattan Power Grid System.
+        system_prompt = """You are an advanced AI system controller for the Volta System.
         You have complete knowledge and control over:
 
         ELECTRICAL SUBSTATIONS: Times Square, Penn Station, Grand Central, Columbus Circle, Union Square, Washington Square, Brooklyn Bridge, Wall Street
@@ -371,7 +371,7 @@ class AdvancedAIController:
                 v2g_sessions = len(getattr(self.v2g_manager, 'active_sessions', {}))
 
             # Create comprehensive status report
-            status = "[BATTERY] **MANHATTAN POWER GRID - REAL-TIME STATUS**\n\n"
+            status = "[BATTERY] **VOLTA - REAL-TIME STATUS**\n\n"
 
             # Substations
             status += f"[POWER] **SUBSTATIONS**: {operational_substations}/8 operational"
@@ -565,7 +565,7 @@ class AdvancedAIController:
                     messages=[
                         {
                             "role": "system",
-                            "content": f"""You are an intelligent controller for Manhattan Power Grid System.
+                            "content": f"""You are an intelligent controller for Volta System.
 
 SYSTEM KNOWLEDGE:
 - 8 Substations: {', '.join([s['name'] for s in self.system_knowledge['substations'].values()])}

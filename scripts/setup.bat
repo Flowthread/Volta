@@ -1,9 +1,9 @@
 @echo off
-REM Manhattan Power Grid - Windows Setup Script
+REM Volta - Windows Setup Script
 REM Automated setup for Windows environments
 
 echo ======================================================
-echo Manhattan Power Grid - Windows Setup
+echo Volta - Windows Setup
 echo ======================================================
 
 REM Check if Python is installed

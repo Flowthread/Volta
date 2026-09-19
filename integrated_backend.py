@@ -1,5 +1,5 @@
 """
-Manhattan Power Grid - World Class Integrated System
+Volta - World Class Integrated System
 FULLY UPDATED with all fixes applied
 """
 

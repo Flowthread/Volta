@@ -1,5 +1,5 @@
 /**
- * Manhattan Co-Simulation Website
+ * Volta Website
  * Interactive JavaScript
  */
 
@@ -412,7 +412,7 @@ createSkipLink();
 console.log(`
 ╔═══════════════════════════════════════════════════════════╗
 ║                                                           ║
-║    Manhattan Power Grid Co-Simulation Platform           ║
+║    Volta Power & Traffic Co-Simulation Platform        ║
 ║                                                           ║
 ║    Interested in the code? Check out our GitHub:         ║
 ║    github.com/YOUR_USERNAME/YOUR_REPO                     ║
@@ -426,7 +426,7 @@ console.log(`
 // Initialize on DOM Ready
 // ============================================
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Manhattan Co-Simulation website loaded successfully!');
+    console.log('Volta website loaded successfully!');
 
     // Add any additional initialization here
     // For example, analytics tracking, third-party integrations, etc.

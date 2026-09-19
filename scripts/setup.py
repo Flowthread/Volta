@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Manhattan Power Grid - Environment Setup Script
+Volta - Environment Setup Script
 Automated setup for development and production environments.
 """
 
@@ -27,7 +27,7 @@ class Colors:
 
 
 class SetupManager:
-    """Manages the setup process for Manhattan Power Grid."""
+    """Manages the setup process for Volta."""
 
     def __init__(self):
         self.project_root = Path(__file__).parent.parent
@@ -168,7 +168,7 @@ class SetupManager:
 
         if not env_example.exists():
             # Create a basic .env file
-            env_content = """# Manhattan Power Grid Configuration
+            env_content = """# Volta Configuration
 
 # Flask Configuration
 FLASK_ENV=development
@@ -274,7 +274,7 @@ except ImportError as e:
 
     def setup(self) -> bool:
         """Run the complete setup process."""
-        print(f"{Colors.GREEN}{Colors.BOLD}Manhattan Power Grid - Setup{Colors.END}")
+        print(f"{Colors.GREEN}{Colors.BOLD}Volta - Setup{Colors.END}")
         print("=" * 50)
 
         steps = [
@@ -303,7 +303,7 @@ def main():
     setup_manager = SetupManager()
 
     if len(sys.argv) > 1 and sys.argv[1] == "--help":
-        print("Manhattan Power Grid Setup Script")
+        print("Volta Setup Script")
         print("\nUsage:")
         print("  python scripts/setup.py        # Run full setup")
         print("  python scripts/setup.py --help # Show this help")

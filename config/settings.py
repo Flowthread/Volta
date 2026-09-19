@@ -1,5 +1,5 @@
 """
-Manhattan Power Grid - Professional Configuration System
+Volta - Professional Configuration System
 This is what Con Edison and NYC DOT would actually use
 """
 
@@ -28,7 +28,7 @@ class PowerGridSettings(BaseSettings):
     """
     
     # Project Info
-    project_name: str = Field("Manhattan Integrated Power Grid", description="System name")
+    project_name: str = Field("Volta", description="System name")
     version: str = Field("2.0.0", description="System version")
     environment: Environment = Field(Environment.DEVELOPMENT, description="Deployment environment")
     debug: bool = Field(False, description="Debug mode")

@@ -1,5 +1,5 @@
 /* ============================================
-   Manhattan Co-Simulation Website Styles
+   Volta Website Styles
    World-Class Professional Design
    ============================================ */
 
@@ -166,9 +166,10 @@ code {
     color: var(--text-primary);
 }
 
-.nav-brand i {
-    color: var(--primary-color);
-    font-size: 1.5rem;
+.nav-logo {
+    width: 34px;
+    height: 34px;
+    display: block;
 }
 
 .nav-menu {

@@ -1,5 +1,5 @@
 /**
- * AI Enhanced Functions for Manhattan Power Grid
+ * AI Enhanced Functions for Volta
  * Support functions for the world-class AI integration
  */
 

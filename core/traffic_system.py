@@ -1,5 +1,5 @@
 """
-Manhattan Power Grid - Traffic Light Distribution Network
+Volta - Traffic Light Distribution Network
 Real backend integration with actual NYC traffic light data and distribution network topology
 """
 

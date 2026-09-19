@@ -18,7 +18,7 @@ A clear and concise description of what the problem is. Ex. I'm always frustrate
 
 **Why would this feature be useful?**
 
-Describe how this feature would benefit users of the Manhattan Power Grid system.
+Describe how this feature would benefit users of the Volta system.
 
 ## 📋 Detailed Feature Specification
 

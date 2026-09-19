@@ -13,7 +13,7 @@ from realistic_load_model import RealisticLoadModel
 from scenario_controller import ScenarioController
 
 print("=" * 80)
-print(" WORLD-CLASS MANHATTAN POWER GRID SIMULATION - FULL SYSTEM TEST")
+print(" WORLD-CLASS VOLTA SIMULATION - FULL SYSTEM TEST")
 print("=" * 80)
 
 # Initialize system

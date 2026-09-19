@@ -1,5 +1,5 @@
 """
-WORLD-CLASS AI Chatbot for Manhattan Power Grid
+WORLD-CLASS AI Chatbot for Volta
 Advanced conversational AI with deep system knowledge and V2G expertise
 """
 
@@ -172,7 +172,7 @@ class ManhattanAIChatbot:
     def _build_system_context(self):
         """Build comprehensive system context for AI responses"""
         return {
-            "system_name": "Manhattan Power Grid",
+            "system_name": "Volta",
             "capabilities": [
                 "Real-time power grid monitoring",
                 "V2G (Vehicle-to-Grid) energy trading",
@@ -191,7 +191,7 @@ class ManhattanAIChatbot:
         """Initialize response templates for common scenarios"""
         return {
             "greeting": [
-                """# 👋 Welcome to Manhattan Power Grid
+                """# 👋 Welcome to Volta
 
 I'm your **intelligent AI assistant** for advanced grid management and simulation.
 
@@ -216,7 +216,7 @@ I'm your **intelligent AI assistant** for advanced grid management and simulatio
 
 **Just talk naturally** - I understand you! 🚀""",
 
-                """# 🌟 Manhattan Power Grid Control Center
+                """# 🌟 Volta Control Center
 
 Your **AI-powered assistant** for grid operations and testing.
 
@@ -242,7 +242,7 @@ Your **AI-powered assistant** for grid operations and testing.
 
 Ready to assist! 🎯""",
 
-                """# ⚡ Hello from Manhattan Power Grid!
+                """# ⚡ Hello from Volta!
 
 I'm your **expert AI assistant** ready to help.
 
@@ -279,7 +279,7 @@ Let's get started! 🚀"""
                 "ML predictions help optimize energy distribution, predict failures, and maximize V2G revenue opportunities."
             ],
             "system_status": [
-                "The Manhattan Power Grid is currently operational with all systems functioning normally.",
+                "Volta is currently operational with all systems functioning normally.",
                 "I can provide real-time status updates on substations, traffic lights, EV stations, and V2G operations.",
                 "The system includes advanced monitoring, predictive analytics, and automated optimization capabilities."
             ]
@@ -744,7 +744,7 @@ The system is operating normally with no anomalies or issues detected. All compo
                 response_text = f"System Data: {json.dumps(system_data, indent=2)}"
                 
         elif primary_intent == "help":
-            response_text = """I can help you with all aspects of the Manhattan Power Grid system:
+            response_text = """I can help you with all aspects of the Volta system:
 
 [POWER] **Power Grid**: Substations, distribution, load management, voltage levels
 POWER **V2G Systems**: Energy trading, revenue optimization, vehicle recruitment
@@ -802,7 +802,7 @@ Available scenarios:
             response_text = """✅ Operation cancelled. Let me know if you'd like to try something else!"""
 
         else:
-            response_text = "I understand you're asking about the Manhattan Power Grid. I have comprehensive knowledge of all system components including power grid operations, V2G systems, ML analytics, traffic management, EV charging, emergency response, and more. Could you be more specific about what you'd like to know?"
+            response_text = "I understand you're asking about the Volta system. I have comprehensive knowledge of all system components including power grid operations, V2G systems, ML analytics, traffic management, EV charging, emergency response, and more. Could you be more specific about what you'd like to know?"
 
         return {
             "text": response_text,
@@ -819,7 +819,7 @@ Available scenarios:
             context = self._build_openai_context(system_data)
             
             # Create system prompt
-            system_prompt = f"""You are an expert AI assistant for the Manhattan Power Grid system. You have deep knowledge of:
+            system_prompt = f"""You are an expert AI assistant for the Volta system. You have deep knowledge of:
 
 - Power grid operations and substation management
 - V2G (Vehicle-to-Grid) energy trading systems
@@ -862,7 +862,7 @@ Provide helpful, accurate, and detailed responses about the power grid system. I
         """Build context for OpenAI API"""
         return {
             "system_overview": {
-                "name": "Manhattan Power Grid",
+                "name": "Volta",
                 "status": "operational",
                 "capabilities": ["V2G trading", "ML analytics", "Grid optimization", "Traffic management"]
             },

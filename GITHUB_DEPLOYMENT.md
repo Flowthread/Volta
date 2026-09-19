@@ -102,7 +102,7 @@ git status
 ### Step 4: Create First Commit
 
 ```bash
-git commit -m "Initial commit: Manhattan Power Grid Co-Simulation
+git commit -m "Initial commit: Volta Co-Simulation
 
 - Complete power grid simulation with PyPSA
 - SUMO traffic microsimulation integration
@@ -259,7 +259,7 @@ Add these topics to help discoverability:
 ### 3. **Create a Release** (Optional)
 Tag version 1.0:
 ```bash
-git tag -a v1.0.0 -m "Initial release: Manhattan Power Grid Co-Simulation"
+git tag -a v1.0.0 -m "Initial release: Volta Co-Simulation"
 git push origin v1.0.0
 ```
 

@@ -1,6 +1,6 @@
 """
 WORLD-CLASS Scenario Controller
-Manhattan Power Grid - Dynamic Simulation Control
+Volta - Dynamic Simulation Control
 
 Features:
 - Time-of-day control (0-24 hours)
@@ -96,7 +96,7 @@ class SubstationMonitor:
 
 class ScenarioController:
     """
-    World-class scenario controller for testing Manhattan power grid
+    World-class scenario controller for testing the Volta city grid
     """
 
     def __init__(self, integrated_system, load_model, power_grid, sumo_manager=None):

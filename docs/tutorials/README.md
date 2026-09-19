@@ -1,6 +1,6 @@
 # Tutorials
 
-Step-by-step guides to help you get started with the Manhattan Power Grid simulation system.
+Step-by-step guides to help you get started with the Volta simulation system.
 
 ## 🚀 Getting Started
 

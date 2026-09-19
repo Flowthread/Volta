@@ -1,7 +1,7 @@
 # SumoXPypsa - Project Structure
 
 ## Overview
-Manhattan Power Grid simulation system integrating PyPSA power flow analysis, SUMO traffic simulation, and V2G energy trading.
+Volta simulation system integrating PyPSA power flow analysis, SUMO traffic simulation, and V2G energy trading.
 
 ## Directory Structure
 

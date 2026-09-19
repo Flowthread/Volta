@@ -403,27 +403,26 @@ input:checked + .v2g-slider:before {
 .brand {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 0.5px;
     color: var(--text-primary);
 }
 
-.brand-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--primary-glow), var(--secondary-glow));
-    box-shadow: 
-        0 0 20px rgba(0, 255, 136, 0.5),
-        0 0 40px rgba(0, 255, 136, 0.3);
-    animation: pulseDot 2s ease-in-out infinite;
+.brand-logo {
+    width: 26px;
+    height: 26px;
+    display: block;
 }
 
-@keyframes pulseDot {
-    0%, 100% { transform: scale(1); filter: brightness(1); }
-    50% { transform: scale(1.1); filter: brightness(1.3); }
+.brand-name {
+    background: linear-gradient(135deg, var(--primary-glow), var(--secondary-glow));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 8px rgba(0, 255, 136, 0.4));
+}
 }
 
 .icon-btn {
@@ -1473,7 +1472,7 @@ body[data-tab="layers"] .tab-layers {
     padding: 20px !important;
 }
 
-.control-panel.collapsed .brand {
+.control-panel.collapsed .brand-name {
     display: none !important;
 }
 .control-panel.collapsed .panel-header {
@@ -1482,8 +1481,10 @@ body[data-tab="layers"] .tab-layers {
     align-items: center !important;
     gap: 10px !important;
 }
-.control-panel.collapsed .brand-dot {
+.control-panel.collapsed .brand-logo {
     display: block !important;
+    width: 32px;
+    height: 32px;
 }
 /* Hide everything else when collapsed */
 .control-panel.collapsed > *:not(.panel-header) {

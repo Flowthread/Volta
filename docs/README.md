@@ -1,6 +1,6 @@
-# Manhattan Power Grid Documentation
+# Volta Documentation
 
-Welcome to the Manhattan Power Grid documentation! This directory contains comprehensive guides, API references, and technical documentation for the project.
+Welcome to the Volta documentation! This directory contains comprehensive guides, API references, and technical documentation for the project.
 
 ## 📚 Documentation Structure
 
